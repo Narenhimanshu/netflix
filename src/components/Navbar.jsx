@@ -11,7 +11,7 @@ const Navbar = () => {
          <div className=" text-white pr-37 text-[17px] flex  gap-2 pt-6">
             <select className="h-8 w-32 text-white border bg-black rounded-md px-3">
             <option className="text-black bg-white">English</option>
-            <option className="text-black bg-white">Hindi</option>
+            <option className="text-black bg-white">Hindi sanskrit</option>
         </select>
 
           {
