@@ -4,8 +4,8 @@ import { useState } from "react";
 const Navbar = () => {
   const [isLoggedIn, setLoggedIn] = useState(false);
   return (
-    <div className="h-170  w-full   bg-[url('/netflix.png')]  bg-cover bg-center p-0">
-      <div className="flex justify-between items-center">
+    <div className="h-screen   w-full   bg-[url('/netflix.png')]  bg-cover bg-center">
+      <div className="flex justify-between items-center w-full">
         <h1 className="text-4xl  text-red-500 font-bold italic pl-37 tracking-wider pt-6">
           NETFLIX
         </h1>
@@ -32,7 +32,7 @@ const Navbar = () => {
           )}
         </div>
       </div>
-      <div className="flex justify-center items-center h-full text-white flex-col">
+      <div className="flex justify-center items-center h-full text-white flex-col w-full">
         <p className="font-bold text-6xl">
           Unlimited movies,
           <br />
