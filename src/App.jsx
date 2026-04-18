@@ -104,7 +104,7 @@ const  App= () =>{
   
   return (
     
-    < div className="bg-gradient-to-b from-[#020b2a] to-black min-h-screen ">
+    < div className="bg-gradient-to-b from-[#020b2a] to-black w-full ">
 
       <Navbar/>
     
