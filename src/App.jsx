@@ -69,6 +69,28 @@ const movies=[
     category:"Thriller",
     imageUrl:"./thriller5.jpg"
   },
+  {
+    id:10,
+    title:"Spiderman",
+    rating:5.1,
+    category:"Action",
+    imageUrl:"./spiderman.jpg"
+  },
+  {
+    id:11,
+    title:"Ironman",
+    rating:4.8,
+    category:"Superhit",
+    imageUrl:"./ironman.jpg"
+  },
+  {
+    id:12,
+    title:"Gost",
+    rating:4.9,
+    category:"Hit",
+    imageUrl:"./gost.jpg"
+  },
+
 ];
 
 // for question
@@ -108,11 +130,11 @@ const  App= () =>{
 
       <Navbar/>
     
-      <h1 className="text-xl text-white font-bold mt-12 mb-6 ml-25 italic">Trending Now</h1>
+      <h1 className="md:text-xl text-[17px] text-white font-bold md:mt-12 mt-6 md:mb-6 mb-3 md:ml-25 ml-9 italic">Trending Now</h1>
 
     {/* grid layout */}
-    {/* <p className="w-full h-[1px] bg-red-300 "></p> */}
-    <div className="grid grid-cols-2 md:grid-cols-3 gap-8 px-32 mt-8 ">
+    
+    <div className="grid grid-cols-2 md:grid-cols-3 md:gap-8 gap-4 md:px-32 px-3 md:mt-6 mt-3 ">
     {movies.map((movie)=>(
       <MoviesCard 
       key={movie.id}
@@ -122,8 +144,8 @@ const  App= () =>{
       imageUrl={movie.imageUrl}/>
     ))}
     </div>
-    <div className="h-full w-full  text-white mt-14 px-32">
-      <p className="text-xl font-semibold"> Frequently Asked Questions</p>
+    <div className="h-full w-full  text-white md:mt-14 mt-10 md:px-32 px-4">
+      <p className="md:text-xl text-[17px] font-semibold"> Frequently Asked Questions</p>
       {questions.map((question)=>(
         <Question
         key={question.id}
@@ -131,7 +153,7 @@ const  App= () =>{
         />
       ))}
     </div>
-    <div className="mt-10 flex flex-col justify-center items-center">
+    <div className="md:mt-10 flex flex-col justify-center items-center">
       <QuestionDown/>
     </div>
     </div>

@@ -39,18 +39,16 @@ const Navbar = () => {
           <span className="flex justify-center">shows,and more</span>
         </p>
         <h1 className="md:text-2xl md:mt-3 mt-1.5">Starts at ₹149. Cancel at any time.</h1>
-        <h1 className="md:text-lg text-[px] mt-3">
+        <h1 className="md:text-lg  md:mt-3 mt-1.5 px-12 md:px-2">
           Ready to watch? Enter your email to create or restart your membership.
         </h1>
-        <div className="mt-3 flex gap-3 h-[75px] items-center">
+        <div className="md:mt-3 mt-1.5 flex md:gap-3 gap-1.5 md:h-[75px] h-[60px] items-center md:pl-7 ">
           <input
             type="text"
             placeholder="Email Address"
-            className="border ring-black bg-transparent h-14 w-full max-w-md rounded-sm hover:ring-2 hover:ring-white hover:rounded-md pt-2 pl-4 pr-4 pb-2 focus:outline-none focus:border-gray-500 text-xl"
+            className="border ring-black bg-transparent md:h-14 md:w-full md:max-w-md w-[70%] md:rounded-sm rounded-[3px] hover:ring-2 hover:ring-white hover:rounded-md md:pt-2 pt-1 md:pr-4 pr-1 md:pb-2 pb-1 focus:outline-none focus:border-gray-500 md:text-xl text-[15px]"
           />
-          <button className="bg-red-600 w-52 h-14  font-bold cursor-pointer text-2xl rounded-sm hover:bg-red-700">
-            Get Started &gt;
-          </button>
+          <button className="bg-red-600 md:w-52 w-16 md:h-14 h-8 font-semibold   md:font-bold cursor-pointer md:text-[20] text-[10px] md:rounded-sm rounded-[2px] hover:bg-red-700">Get Started &gt;</button>
         </div>
       </div>
     </div>
