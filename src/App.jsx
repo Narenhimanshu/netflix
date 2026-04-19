@@ -153,9 +153,7 @@ const  App= () =>{
         />
       ))}
     </div>
-    <div className="md:mt-10 flex flex-col justify-center items-center">
-      <QuestionDown/>
-    </div>
+
     </div>
   )
 }
