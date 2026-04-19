@@ -48,7 +48,7 @@ const Navbar = () => {
             placeholder="Email Address"
             className="border ring-black bg-transparent md:h-14 md:w-full md:max-w-md w-[70%] md:rounded-sm rounded-[3px] hover:ring-2 hover:ring-white hover:rounded-md md:pt-2 pt-1 md:pr-4 pr-1 md:pb-2 pb-1 focus:outline-none focus:border-gray-500 md:text-xl text-[15px]"
           />
-          <button className="bg-red-600 md:w-52 w-16 md:h-14 h-8 font-semibold   md:font-bold cursor-pointer md:text-[20] text-[10px] md:rounded-sm rounded-[2px] hover:bg-red-700">Get Started &gt;</button>
+          <button className="bg-red-600 md:w-52 w-16 md:h-14 h-8 font-semibold   md:font-bold cursor-pointer md:text-[20px] text-[10px] md:rounded-sm rounded-[2px] hover:bg-red-700">Get Started &gt;</button>
         </div>
       </div>
     </div>

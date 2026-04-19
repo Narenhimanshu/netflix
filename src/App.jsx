@@ -2,7 +2,7 @@ import React from 'react'
 import MoviesCard from './components/MoviesCard'
 import Navbar from './components/Navbar'
 import Question from './components/Question'
-import QuestionDown from './components/QuestionDown'
+
 // dummy data array
 
 const movies=[
